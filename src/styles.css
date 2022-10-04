@@ -1,0 +1,28 @@
+body {
+  background-color: #262d40;
+  font-family: "Noto Sans Mono", monospace;
+}
+.about-abstract-img {
+  height: 800px;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 52px;
+}
+h5 {
+  color: #979797;
+  font-size: 17px;
+}
+.nav-link,
+.navbar-brand {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(217, 217, 217);
+}
+
+.about-header {
+  margin: 10% 0 0 10%;
+}
