@@ -7,7 +7,9 @@ body {
   height: 800px;
   width: 100%;
 }
-
+.active {
+  color: rgb(158, 158, 158) !important;
+}
 h1 {
   font-size: 52px;
 }
