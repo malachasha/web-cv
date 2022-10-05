@@ -1,5 +1,6 @@
 body {
   background-color: #262d40;
+  color: white;
   font-family: "Noto Sans Mono", monospace;
 }
 .about-abstract-img {
@@ -8,7 +9,6 @@ body {
 }
 
 h1 {
-  color: white;
   font-size: 52px;
 }
 h5 {
@@ -31,4 +31,37 @@ h5 {
   margin-top: 6%;
   margin-bottom: 5%;
   margin-left: 10px;
+}
+.hero-img {
+  z-index: -10;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 100%;
+  max-height: 800px;
+}
+.cont-contact {
+  margin-top: 10%;
+  text-align: center;
+}
+.cont-contact h1 {
+  margin-bottom: 6%;
+}
+.contact-links {
+  margin: 0px 15% 0px 15%;
+  padding: 20px 0px 20px 0px;
+  background-color: #576177;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.contact-links a {
+  color: #262d40;
+}
+.contact-links a:hover {
+  color: #384057;
+}
+@media (max-width: 500px) {
+  .hero-img {
+    top: 40%;
+  }
 }
