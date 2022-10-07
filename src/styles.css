@@ -53,6 +53,10 @@ h5 {
 
 .social-links {
   padding-top: 100px;
+  padding-bottom: 40px;
+}
+#footer-learn {
+  font-size: 38px;
 }
 
 #experience-header {
@@ -85,6 +89,10 @@ h5 {
   margin: 40px auto;
   padding: 20px;
 }
+.about-cv-cont {
+  padding-top: 20px;
+  margin-left: 30px;
+}
 /* Home page */
 .about-header {
   margin: 7% 0 0 5%;
@@ -102,6 +110,9 @@ h5 {
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 40px;
+  }
+  .about-cv-cont {
+    margin-left: 30px;
   }
 }
 @media (max-width: 450px) {
