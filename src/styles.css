@@ -3,10 +3,6 @@ body {
   color: white;
   font-family: "Noto Sans Mono", monospace;
 }
-.about-abstract-img {
-  height: 800px;
-  width: 100%;
-}
 .active {
   color: rgb(158, 158, 158) !important;
 }
@@ -25,8 +21,115 @@ h5 {
   color: rgb(217, 217, 217);
 }
 
+/* footer */
+.footer-contact-link {
+  background-color: #576177;
+  border-radius: 30px;
+  padding: 20px 0px 20px 30px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.footer-contact-link h5 {
+  display: inline;
+}
+.col-cont-btn {
+  padding-top: 40px;
+}
+.col-cont-text {
+  padding-left: 40px;
+}
+.contact-btn {
+  text-decoration: none;
+  color: #262d40;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px 45px;
+  transition: all 200ms ease-in-out;
+}
+.contact-btn:hover {
+  background-color: #262d40;
+  color: aliceblue;
+}
+
+.social-links {
+  padding-top: 100px;
+}
+
+#experience-header {
+  font-size: 24px;
+}
+.education-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+.download-btn {
+  float: center;
+  margin-bottom: 0px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #262d40;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px 45px;
+  transition: all 200ms ease-in-out;
+}
+.download-btn:hover {
+  background-color: #576177;
+  color: aliceblue;
+}
+.resume-container {
+  background-color: aliceblue;
+  color: #262d40;
+  border-radius: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+/* Home page */
 .about-header {
-  margin: 10% 0 0 10%;
+  margin: 7% 0 0 5%;
+}
+@media (max-width: 700px) {
+  .about-header {
+    margin: 10% 0 0 10%;
+  }
+  .home-my-photo i {
+    height: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .col-cont-btn {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .col-cont-btn {
+    padding-left: 0px;
+  }
+  .col-cont-text {
+    padding-left: 0px;
+  }
+  .col-cont-text h1 {
+    font-size: 48px;
+  }
+}
+.home-my-photo i {
+  margin: 18%;
+  color: transparent;
+}
+#home-header-h1 {
+  font-size: 48px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.home-projects p {
+  font-size: 20px;
+}
+.home-projects h3 {
+  font-size: 28px;
+  padding-bottom: 10px;
 }
 
 .work-header {
@@ -40,8 +143,9 @@ h5 {
   left: 0px;
   top: 100px;
   width: 100%;
-  max-height: 800px;
+  max-height: 700px;
 }
+/* Contact page */
 .cont-contact {
   margin-top: 10%;
   text-align: center;
@@ -61,9 +165,4 @@ h5 {
 }
 .contact-links a:hover {
   color: #384057;
-}
-@media (max-width: 500px) {
-  .hero-img {
-    top: 40%;
-  }
 }
